@@ -62,7 +62,7 @@ const Document = withEmotionCache(
       });
       // reset cache to reapply global styles
       clientStyleData?.reset();
-    }, [clientStyleData, emotionCache.sheet]);
+    }, []);
 
     let cookies = useLoaderData()
 
